@@ -1,12 +1,12 @@
-#Semana 6
+# Semana 6
 
-##Programa completo - jogo do NIM
+## Programa completo - jogo do NIM
 
 Você conhece o jogo do NIM? Nesse jogo, __n__ peças são inicialmente dispostas numa mesa ou tabuleiro. Dois jogadores jogam  alternadamente, retirando pelo menos 1 e no máximo __m__ peças cada um. Quem tirar as últimas peças possíveis ganha o jogo.
 
 Existe uma estratégia para ganhar o jogo que é muito simples: ela consiste em deixar sempre múltiplos de __(m+1)__ peças ao jogador oponente.
 
-###Objetivo
+### Objetivo
 Você deverá escrever um programa na linguagem Python, versão 3, que permita a uma "vítima" jogar o NIM contra o computador. O computador, é claro, deverá seguir a estratégia vencedora descrita acima.
 
 Sejam __n__ o número de peças inicial e __m__ o número máximo de peças que é possível retirar em uma rodada. Para garantir que o computador ganhe sempre, é preciso considerar os dois cenários possíveis para o início do jogo:
@@ -18,7 +18,7 @@ Uma vez iniciado o jogo, a estratégia do computador para ganhar consiste em dei
 
 Seu trabalho, então, será implementar o Jogo e fazer com que o computador se utilize da estratégia vencedora.
 
-###Seu programa
+### Seu programa
 
 Com o objetivo do EP já definido, uma dúvida que deve surgir nesse momento é como modelar o jogo de forma que possa ser implementado em Python 3 correspondendo rigorosamente às especificações descritas até agora.
 
@@ -32,11 +32,11 @@ O programa deve implementar:
 
 Observe que, para isso funcionar, seu programa deve sempre "lembrar" qual é o número de peças atualmente no tabuleiro e qual é o máximo de peças a retirar em cada jogada.
 
-###Campeonato
+### Campeonato
 Como todos sabemos, uma única rodada de um jogo não é suficiente para definir quem é o melhor jogador. Assim, uma vez que a função __partida__ esteja funcionando, você deverá criar uma outra função chamada __campeonato__. Essa nova função deve realizar três partidas seguidas do jogo e, ao final, mostrar o placar dessas três partidas e indicar o vencedor do campeonato. O placar deve ser impresso na forma
 __Placar: Você ??? X ??? Computador__
 
-###Execução
+### Execução
 Dado que é possível jogar partidas individuais ou campeonatos, seu programa deve começar solicitando ao usuário que escolha se prefere jogar apenas uma partida (opção __1__) ou um campeonato (opção __2__).
 Veja um exemplo de como deve funcionar o jogo:
 ```
