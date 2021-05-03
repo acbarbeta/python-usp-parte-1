@@ -1,8 +1,8 @@
-#Semana 2
+# Semana 2
 
-##Exercícios obrigatórios
+## Exercícios obrigatórios
 
-###Exercício 1
+### Exercício 1
 Faça um programa em Python que receba (entrada de dados) o valor correspondente ao lado de um quadrado, calcule e imprima (saída de dados) seu perímetro e sua área.
 Observação: a saída deve estar no formato: __"perímetro: x - área: y"__
 Abaixo um exemplo de como devem ser a entrada e saída de dados do programa:
@@ -17,7 +17,7 @@ __perímetro: 12 - área: 9__
 __Dica:__ lembre-se que um quadrado tem lados iguais, logo só é necessário pedir o lado uma vez.
 
 
-###Exercício 2
+### Exercício 2
 Faça um programa em Python que receba quatro notas, calcule e imprima a média aritmética. Observe o exemplo abaixo:
 
 Exemplo:
@@ -30,9 +30,9 @@ __Digite a quarta nota: 7__
 * Saída de dados:
 __A média aritmética é 5.5__
 
-##Exercícios adicionais (opcionais)
+## Exercícios adicionais (opcionais)
 
-###Exercício 1
+### Exercício 1
 Uma empresa de cartão de crédito envia suas faturas por email com a seguinte mensagem:
 ```
 Olá, Fulano de Tal
@@ -56,7 +56,7 @@ Olá, Fulano de Tal,
 A sua fatura com vencimento em 9 de Janeiro no valor de R$ 350,00 está fechada.
 ```
 
-###Exercício 2
+### Exercício 2
 Reescreva o programa contaSegundos (citado durate a aula) para imprimir também a quantidade de dias, ou seja, faça um programa em Python que, dada a quantidade de segundos, "quebre" esse valor em dias, horas, minutos e segundos. A saída deve estar no formato: __a dias, b horas, c minutos e d segundos.__ Seja cuidadoso com o formato! Espaços a mais, vírgulas faltando ou outras diferenças são considerados erro
 
 Abaixo um exemplo de como deve ser a entrada e saída de dados do programa:
@@ -68,7 +68,7 @@ __Por favor, entre com o número de segundos que deseja converter: 178615__
 * Saída de dados: 
 __2 dias, 1 horas, 36 minutos e 55 segundos.__
 
-###Exercício 3
+### Exercício 3
 Faça um programa em Python que recebe um número inteiro e imprime seu dígito das dezenas. Observe o exemplo abaixo:
 
 Exemplo 1:
