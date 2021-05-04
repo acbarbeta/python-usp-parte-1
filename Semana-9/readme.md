@@ -32,10 +32,10 @@ A partir da assinatura conhecida de um portador de COH-PIAH, seu programa dever�
 * Tamanho médio de frase é a soma do número de caracteres em cada frase dividida pelo número de frases no texto  (os caracteres que separam uma frase da outra __não__ devem ser contabilizados como parte da frase).
 
 Após calcular esses valores para cada texto, você deve compará-los com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos,  a a e  b b, é dado pela fórmula:
-![formula](/formula.png)
+![formula](https://github.com/acbarbeta/python-usp-parte-1/blob/main/Semana-9/formula.png)
 
 
-![final](/final.png)
+![final](https://github.com/acbarbeta/python-usp-parte-1/blob/main/Semana-9/final.png)
 
 Exemplo:
 ```
